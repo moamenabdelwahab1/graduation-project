@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/text_view_transaction_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaction ID"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User ID"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_view_profit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profit"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

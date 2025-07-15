@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/adminTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/editProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Product"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/deleteProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Product"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/addCategoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Category"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/editCategoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Category"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/deleteCategoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Category"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/generateReportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Transaction Report"
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>

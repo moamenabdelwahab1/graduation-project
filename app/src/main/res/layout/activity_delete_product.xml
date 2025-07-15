@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView to indicate delete activity -->
+    <TextView
+        android:id="@+id/deleteProductTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Product"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- EditText for entering the product name -->
+    <EditText
+        android:id="@+id/editProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter product name"
+        android:padding="10dp"/>
+
+    <!-- Spinner for selecting category -->
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to trigger product deletion -->
+    <Button
+        android:id="@+id/deleteProductButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Product"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
